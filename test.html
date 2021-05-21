@@ -1,7 +1,17 @@
 <html>
   <body>
     <script>
-      alert("pamonha!");
+      
+      navigator.getInstalledRelatedApps().then(relatedApps => {
+	  for (let app of relatedApps) {
+	      console.log(app.platform);
+	      console.log(app.url);
+	      console.log(app.id);
+	      alert(app + ", " + app.url + ", " + app.id );
+	  }
+      });
+
+      
     </script>
   </body>
 </html>
