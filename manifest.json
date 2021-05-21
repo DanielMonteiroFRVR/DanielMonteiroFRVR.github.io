@@ -1,0 +1,9 @@
+{
+    "short_name": "golddiger",
+    "name": "Gold Digger FRVR",
+ 
+    "related_applications": [{
+	"platform": "play",
+	"id": "com.frvr.golddigger"
+    }],
+}
