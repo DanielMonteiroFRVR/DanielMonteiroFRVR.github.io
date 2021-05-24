@@ -3,7 +3,7 @@
     <script>
       const fun = navigator['getInstalledRelatedApps'];
       alert(fun);
-      fun().then(relatedApps => {
+      fun().then((relatedApps) => {
 	  alert(relatedApps);
 	  const nativeApp = relatedApps.find(app => app.id === 'com.frvr.golddigger');
 	  for (let app of relatedApps) {
