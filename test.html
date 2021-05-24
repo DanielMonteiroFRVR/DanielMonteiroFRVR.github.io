@@ -2,20 +2,18 @@
   <body>
     <script>
       const fun = navigator['getInstalledRelatedApps'];
-//      alert(fun);
-      var relatedApps = fun();
-
-
-      alert(relatedApps);
-      for (let app of relatedApps) {
-	  console.log(app.platform);
-	  console.log(app.url);
-	  console.log(app.id);
-	  alert(app + ", " + app.url + ", " + app.id );
-      }
-      
-      alert("done?");	  
-
+      alert(fun);
+      fun().then(relatedApps => {
+	  alert(relatedApps);
+	  for (let app of relatedApps) {
+	      console.log(app.platform);
+	      console.log(app.url);
+	      console.log(app.id);
+	      alert(app + ", " + app.url + ", " + app.id );
+	  }
+	  
+	  alert("done?");	  
+      });
     </script>
   </body>
 </html>
