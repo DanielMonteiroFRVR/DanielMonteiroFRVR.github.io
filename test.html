@@ -1,9 +1,7 @@
 <html>
   <body>
     <script>
-      const fun = navigator['getInstalledRelatedApps'];
-      alert(fun);
-      fun().then((relatedApps) => {
+      navigator.getInstalledRelatedApps().then((relatedApps) => {
 	  alert(relatedApps);
 	  const nativeApp = relatedApps.find(app => app.id === 'com.frvr.golddigger');
 	  for (let app of relatedApps) {
