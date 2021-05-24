@@ -1,6 +1,7 @@
 <html>
   <body>
     <script>
+/*
       const fun = navigator['getInstalledRelatedApps'];
       alert(fun);
       fun().then(relatedApps => {
@@ -14,6 +15,17 @@
 	  
 	  alert("done?");	  
       });
+*/
+
+
+      const installedApps = await navigator.getInstalledRelatedApps();
+      const nativeApp = installedApps.find(app => app.id === 'com.frvr.golddigger');
+      
+      if (nativeApp) {
+	  alert("oh yeah!");
+	  return;
+      }
+
     </script>
   </body>
 </html>
