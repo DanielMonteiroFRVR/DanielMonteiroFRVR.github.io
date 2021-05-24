@@ -13,5 +13,5 @@
     }],
 
     "start_url": "https://danielmonteirofrvr.github.io/test.html",
-    "display": "standalone",
+    "display": "standalone"
 }
