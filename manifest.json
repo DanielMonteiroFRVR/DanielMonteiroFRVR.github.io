@@ -10,8 +10,5 @@
     {
       "platform": "webapp",
       "url": "https://danielmonteirofrvr.github.io/manifest.json"
-    }],
-
-    "start_url": "https://danielmonteirofrvr.github.io/test.html",
-    "display": "standalone"
+    }]
 }
