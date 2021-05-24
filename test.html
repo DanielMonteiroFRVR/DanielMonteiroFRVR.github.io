@@ -7,10 +7,11 @@
     FAROFINHA RULES FOR A GOOD LIFE
     
     <script>
-      navigator.getInstalledRelatedApps().then((relatedApps) => {
+
+
+      navigator.getInstalledRelatedApps().then(relatedApps => {
+
 	  alert(relatedApps);
-	  
-	  const nativeApp = relatedApps.find(app => app.id === 'com.frvr.golddigger');
 
 	  for (let app of relatedApps) {
 	      console.log(app.platform);
@@ -21,6 +22,8 @@
 	  
 	  alert("done?");	  
       });
+
+      
     </script>
   </body>
 </html>
