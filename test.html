@@ -2,8 +2,10 @@
   <body>
     <script>
       navigator.getInstalledRelatedApps().then((relatedApps) => {
+	  alert(relativeApps);
+	  
 	  const nativeApp = relatedApps.find(app => app.id === 'com.frvr.golddigger');
-	  alert(nativeApp);
+
 	  for (let app of relatedApps) {
 	      console.log(app.platform);
 	      console.log(app.url);
