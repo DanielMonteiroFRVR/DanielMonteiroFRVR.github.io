@@ -1,14 +1,13 @@
 {
-  
+    "short_name": "Gold Digger FRVR",
+    "name": "Gold Digger FRVR",
+    
     "related_applications": [{
 	"platform": "play",
 	"id": "com.frvr.golddigger"
+	"url":"https://play.google.com/store/apps/details?id=com.frvr.golddigger"
     }],
 
-    "short_name": "Gold Digger FRVR",
-    "name": "Gold Digger FRVR",
-    "start_url": "./?pwa",
-    "background_color": "#3367D6",
+    "start_url": "https://danielmonteirofrvr.github.io/test.html",
     "display": "standalone",
-    "theme_color": "#3367D6"
 }
