@@ -2,7 +2,11 @@
   <body>
     <script>
       const fun = navigator['getInstalledRelatedApps'];
-      listOfInstalledApps => {
+      alert(fun);
+      fun().then(relatedApps => {
+
+	  
+	  
 	  for (let app of relatedApps) {
 	      console.log(app.platform);
 	      console.log(app.url);
@@ -10,8 +14,7 @@
 	      alert(app + ", " + app.url + ", " + app.id );
 	  }
 	  
-	  alert("done?");
-      }
+	  alert("done?");	  
       });
     </script>
   </body>
