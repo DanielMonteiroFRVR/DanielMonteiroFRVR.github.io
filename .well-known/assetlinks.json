@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.frvr.golddigger",
+    "sha256_cert_fingerprints":
+     ["9E:36:C3:21:09:8E:50:57:F8:59:45:13:BC:A7:D0:7B:22:83:42:ED:F6:4B:FF:D5:7B:94:10:92:16:B2:3F:0C"]
+  }
+}]
